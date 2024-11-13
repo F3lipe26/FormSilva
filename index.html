@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuesta sobre Marcas de Autos Alemanas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="brand-banner">
+    <img src="https://electroverse.octopus.energy/_next/image?url=https%3A%2F%2Fassets.electricjuice.octopus.energy%2F792x531%2Fbd9fd15011%2Fporsche.png&w=3072&q=75" alt="Porsche" class="brand-logo">
+    <img src="https://myleanacademy.com/wp-content/uploads/2020/01/audi-logo-png-1920x1080-hd-1080p-1920.png" alt="Audi" class="brand-logo">
+    <img src="https://www.imagensempng.com.br/wp-content/uploads/2023/07/577-2.png" alt="BMW" class="brand-logo">
+    <img src="https://www.buscopng.com/wp-content/uploads/2020/10/Logo-Mercedes-benz.png" alt="Mercedes-Benz" class="brand-logo">
+  </div>
+
+  <h1 id="title">Encuesta sobre Marcas de Autos Alemanas</h1>
+  <p id="description">
+    Queremos saber tu opinión sobre algunas de las marcas de autos más prestigiosas de Alemania. Por favor, completa el siguiente formulario.
+  </p>
+
+  <form id="survey-form">
+    <label id="name-label" for="name">Nombre:</label>
+    <input id="name" type="text" name="name" required placeholder="Escribe tu nombre">
+
+    <label id="email-label" for="email">Correo Electrónico:</label>
+    <input id="email" type="email" name="email" required placeholder="Escribe tu correo electrónico">
+
+    <label id="number-label" for="number">Edad:</label>
+    <input id="number" type="number" name="age" min="18" max="100" required placeholder="Ingresa tu edad">
+
+    <label for="dropdown">¿Cuál es tu marca de auto favorita?</label>
+    <select id="dropdown" name="car-brand" required>
+      <option value="porsche">Porsche</option>
+      <option value="audi">Audi</option>
+      <option value="bmw">BMW</option>
+      <option value="mercedes">Mercedes-Benz</option>
+    </select>
+
+    <fieldset>
+      <legend>¿Qué tan satisfecho estás con las marcas de autos alemanas?</legend>
+      <label>
+        <input type="radio" name="satisfaction" value="muy_satisfecho" required> Muy Satisfecho
+      </label>
+      <label>
+        <input type="radio" name="satisfaction" value="satisfecho"> Satisfecho
+      </label>
+      <label>
+        <input type="radio" name="satisfaction" value="neutral"> Neutral
+      </label>
+      <label>
+        <input type="radio" name="satisfaction" value="insatisfecho"> Insatisfecho
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>¿Qué características son más importantes para ti en un auto?</legend>
+      <label>
+        <input type="checkbox" name="features" value="diseño"> Diseño
+      </label>
+      <label>
+        <input type="checkbox" name="features" value="rendimiento"> Rendimiento
+      </label>
+      <label>
+        <input type="checkbox" name="features" value="seguridad"> Seguridad
+      </label>
+      <label>
+        <input type="checkbox" name="features" value="tecnologia"> Tecnología
+      </label>
+    </fieldset>
+
+    <label for="comments">Comentarios adicionales:</label>
+    <textarea id="comments" name="comments" placeholder="Escribe tus comentarios aquí..." rows="4"></textarea>
+
+    <button id="submit" type="submit">Enviar Encuesta</button>
+  </form>
+
+</body>
+</html>

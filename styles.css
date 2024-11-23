@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #121212;
+  background-color: #070255;
   color: #e0e0e0;
   line-height: 1.6;
 }
@@ -24,7 +24,7 @@ h1, p {
 .brand-logo {
   width: 150px;
   margin: 10px;
-  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(2px 2px 5px rgba(172, 99, 99, 0.3));
 }
 
 #title {

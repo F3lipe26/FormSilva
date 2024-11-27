@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #070255;
+  background-color: #630121;
   color: #e0e0e0;
   line-height: 1.6;
 }
@@ -30,6 +30,7 @@ h1, p {
 #title {
   font-size: 2.5em;
   font-weight: bold;
+  
   color: #f1f1f1;
   margin: 20px 0;
 }
